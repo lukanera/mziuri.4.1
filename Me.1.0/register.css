@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+*{
+    background: rgb(162, 162, 253);
+}
+
+input{
+    background: white;
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    font-size: 30x;
+}
+
+a.right{
+    color: blue;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    border-bottom: 2px solid black;  
+}

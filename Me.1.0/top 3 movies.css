@@ -1,0 +1,42 @@
+.title{
+    text-align: center;
+}
+
+a.right{
+    color: blue;
+    position: absolute;
+    right: 0;
+    border-bottom: 2px solid black;  
+}
+
+.left{
+    color: blue;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+#django{
+    background-image: url(django.jpeg);
+    background-repeat: no-repeat;
+    background-size: 88% 82.6%;
+    background-position: right top;
+}
+
+#shutter{
+    background-image: url(shutter.jpeg);
+    background-repeat: no-repeat;
+    background-size: 88% 82.6%;
+    background-position: right top;
+}
+
+
+#lord{
+    background-image: url(lord.jpeg);
+    background-repeat: no-repeat;
+    background-size: 88% 82.6%;
+    background-position: right top;
+}
+
+style{
+    overflow: auto;
+}
