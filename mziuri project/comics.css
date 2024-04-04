@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+
+.mice {
+    width: 267px;
+    height: 372px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+p {
+    text-align: center;
+    width: 1000px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px;
+}
+
+.right{ 
+    text-decoration: none;
+    color: blue;
+    position: absolute;
+    right: 0;
+    border-bottom: 2px solid black; 
+}
+

@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#text1 {
+    border-radius: 20px;
+    width: 1000px;
+    text-align: left;
+    text-align: center;
+}
+
+#hr {
+    width: 1000px;
+    position: absolute;
+    left: 0;
+}
+
+#museum {
+    margin-top: 25px;
+    width: 1000px;
+    height: 500px;
+}
+
+#map {
+    position: absolute;
+    right: 0;
+    top: 422px;
+    margin-top: 25px;
+    width: 450px;
+    height: auto;
+}
+
+#rawr {
+    position: absolute;
+    right: 0;
+    top: 192px;
+    width: 450px;
+}
+
+.p {
+    text-align: center;
+}
+
+.right{ 
+    text-decoration: none;
+    color: blue;
+    position: absolute;
+    right: 0;
+    border-bottom: 2px solid black; 
+}
+
+#maus {
+    text-decoration: none;
+    color: blue;
+    border-bottom: 2px solid black; 
+}
