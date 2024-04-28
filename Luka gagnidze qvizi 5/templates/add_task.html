@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} add_task {% endblock %}
+
+{% block content %}
+    {{ super() }}
+    <label>'enter new task:'</label>
+    <input type="text">
+    <a href="/"><button {{ task.append(input) }}>submit</button></a>
+{% endblock %}
