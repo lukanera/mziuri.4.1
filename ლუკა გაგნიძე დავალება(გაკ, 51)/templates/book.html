@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %} Book {% endblock %}
+
+{% block content %}
+    {% for title, book in books.items() %}
+        {% if book['id'] == book_id %}
+            <h1>{{ title }}</h1>
+            <p><strong>Author:</strong> {{ book['author'] }}</p>
+            <p><strong>Release Year:</strong> {{ book['release_year'] }}</p>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
