@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %} home page {% endblock %}
+
+{% block content %}
+    {% if user %}
+        <h1>zdrastvuite {{user}}</h1>
+    {% endif %}
+    <h1>{{text}}</h1>
+{% endblock %}
